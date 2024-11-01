@@ -1,0 +1,16 @@
+---
+import "../styles/global.css";
+---
+
+<div class="content">
+  <section id="home">
+    <div id="avatar-container">
+      <div id="avatar-loading">Loading...</div>
+    </div>
+  </section>
+</div>
+<script>
+  import { loadAvatar } from "../scripts/avatarLoader.js";
+
+  loadAvatar();
+</script>
